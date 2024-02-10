@@ -24,14 +24,24 @@ export async function getStaticProps() {
 
 export default function Home({ pokemons }: any) {
     return (
-        <div>
-            <h1>Poke Next</h1>
+        <>
+            <div className={styles.title_container}>
+                <h1 className={styles.title}>
+                    Poke <span>Next</span>
+                </h1>
+                <Image
+                    src="/images/pokeball.png"
+                    width="50"
+                    height="50"
+                    alt="PokeNext"
+                />
+            </div>
 
-            <ul>
+            <div className={styles.pokemon_container}>
                 {pokemons.map((pokemon: any) => (
-                    <li key={pokemon.id}>{pokemon.name}</li>
+                    <p key={pokemon.id}>{pokemon.name}</p>
                 ))}
-            </ul>
-        </div>
+            </div>
+        </>
     );
 }
