@@ -6,7 +6,7 @@ export default function About() {
         <>
             <div className={styles.about}>
                 <h1>Sobre o Projeto</h1>
-                <p>Aprendendo Next com Matheus Battist, canal Hora de Codar</p>
+                <p>Aprendendo Next</p>
                 <Image
                     src="/images/charizard.png"
                     width="300"
