@@ -5,10 +5,7 @@ export default function Footer() {
         <>
             <footer className={styles.footer}>
                 <p>
-                    <span>
-                        Aprendendo Next com Matheus Battisti - Hora de Codar -
-                        PokeNext
-                    </span>
+                    <span>Aprendendo Next</span>
                 </p>
             </footer>
         </>
