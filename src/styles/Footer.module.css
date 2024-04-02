@@ -10,7 +10,9 @@
     color: white;
 }
 .footer p {
-    margin: 0px 8px 0px 8px;
+    font-weight: 500;
+
+    margin: 0px 8px 30px 8px;
 }
 .footer span {
     font-weight: bold;

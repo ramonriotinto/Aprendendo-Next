@@ -8,9 +8,9 @@ export default function About() {
                 <h1>Sobre o Projeto</h1>
                 <p>Aprendendo Next</p>
                 <Image
-                    src="/images/charizard.png"
-                    width="300"
-                    height="300"
+                    src="/images/pokemon-wallpaper.jpg"
+                    width="400"
+                    height="350"
                     alt="Charizard"
                 />
             </div>
